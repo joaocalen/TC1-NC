@@ -1,0 +1,6 @@
+kaleido
+scikit-learn
+requests
+plotly
+nbformat
+networkx-3.3
