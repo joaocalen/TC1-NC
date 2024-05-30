@@ -3,4 +3,4 @@ scikit-learn
 requests
 plotly
 nbformat
-networkx-3.3
+# networkx-3.3
