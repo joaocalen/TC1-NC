@@ -32,10 +32,10 @@ class NeuralNetwork:
         # self.w0 = np.zeros(output_size)
 
         # Initialize weights and biases
-        self.v = np.random.rand(hidden_size, input_size)
-        self.v0 = np.random.rand(hidden_size)
-        self.w = np.random.rand(output_size, hidden_size)
-        self.w0 = np.random.rand(output_size)
+        self.v = np.random.uniform(-1, 1, (hidden_size, input_size))
+        self.v0 = np.random.uniform(-1, 1, hidden_size)
+        self.w = np.random.uniform(-1, 1, (output_size, hidden_size))
+        self.w0 = np.random.uniform(-1, 1, output_size)
 
     def predict(self, phi: np.ndarray) -> np.ndarray:
         """
